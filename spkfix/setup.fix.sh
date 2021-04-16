@@ -1,6 +1,5 @@
  #!/bin/sh
-cd /root
-chmod 755 /root/cp/ -R
+chmod 755 cp -R
 
 mv -f cp/postgresql.conf /etc.defaults/syslog-ng/patterndb.d/
 mv -f cp/scemd.conf /etc.defaults/syslog-ng/patterndb.d/
